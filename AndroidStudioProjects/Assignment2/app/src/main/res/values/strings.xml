@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent LOL</string>
+    <string name="someText">Some Text</string>
+    <string name="lastConversion">The last conversion is </string>
+</resources>

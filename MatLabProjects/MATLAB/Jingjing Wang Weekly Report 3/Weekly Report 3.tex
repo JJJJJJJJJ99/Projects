@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage[margin=1.25in]{geometry}
+\begin{document}
+   
+% Title    
+\title{Project Status Report}
+\author{Jingjing Wang/Zicheng Hu, Victor Zhu}
+\date{Mar 28 2016}
+\maketitle
+
+
+\section{Project Status}
+
+Found a correct SIFT matlab implementation and trying to combine several image processing algorithms and cooperate them with SIFT in order to get a better performance on detecting minor changes in Coca Cola logos throughout the history. Currently finished segment Coca Cola logos from photos.
+
+
+\section{Work Completed in the Past Week}
+
+Last we I worked out the segmentation of Coca Cola logos from images, and trying to unify the colors of test logo and template logo. The code for segmentation is included in the folder with name of ?segmentation.m? the original code is from MathWork File Exchange. The code for unifying colors is included in ?siftMatch.m?. 
+
+\section{Results}
+
+The SIFT code I have right now is from David G. Lowe, the author of ?Distinctive Image Features from Scale-Invariant Keypoints?. The problem with this code is that it only runs on Windows system. Because the application for keypoint description Lowe provided has only windows format. I tried on my windows system, and it works pretty well. I tried Coca Cola logos with different color, it didn?t work. I figured that SIFT mainly depends on the color of comparing objects. So I worked on segmentation and changing color of comparing logos.
+
+
+\section{Issues Encountered}
+
+1. SIFT code only works under Windows environment
+2. Segmentation of Coca Cola logo does not keep the shadow and the ribbon under Coca Cola logo which is a significant change in Coca Cola logo history
+
+
+
+\section{Tasks For Next Week}
+
+1. Refining segmentation and make it includes minor changes of Coca Cola logos
+2. Refining SIFT algorithm to perform on images after segmentation
+
+
+
+   \end{document}
+   

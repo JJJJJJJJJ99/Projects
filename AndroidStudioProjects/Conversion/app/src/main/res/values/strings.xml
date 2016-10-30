@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="dialog_title">Fahrenheit to Celsius Formula:</string>
+    <string name="dialog_message">y = (x-32)/1.8</string>
+    <string name="f_to_c">F to C</string>
+    <string name="result">Result</string>
+    <string name="rtn">return</string>
+    <string name="abt">about</string>
+    <string name="clr">clear</string>
+    <string name="dialog_title2">Last conversion</string>
+    <string name="dialog_message2">The last conversion was</string>
+</resources>

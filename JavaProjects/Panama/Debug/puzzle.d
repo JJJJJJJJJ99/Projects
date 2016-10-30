@@ -1,0 +1,1 @@
+puzzle.d: ../puzzle.c

@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage[margin=1.25in]{geometry}
+\begin{document}
+   
+% Title    
+\title{Project Status Report 1}
+\author{Jingjing Wang / Victor Zhu, Zicheng Hu, Jingjing Wang}
+\date{Mar 14 2016}
+\maketitle
+
+
+\section{Project Status}
+We are currently collecting data and studying on Scale-invariant feature transform algorithm. 
+
+\section{Work Completed in the Past Week}
+I am studying on research paper Distinctive Image Features from Scale-Invariant Keypoints by David G. Lowe. I learned that SIFT features are extracted from a set of reference images and stored in a database. In order to use this features to detect logo in photos, I read Object Recognition from Local Scale-Invariant Features which is also by David G. Lowe. I analyzed the code about image key points matching program which I found in mathwork file exchange website. After knowing how the algorithm worked in this code, I follow the similar pattern used in this file and created a piece of code that will be useful for our project. In addition to SIFT, I found extractFeatures function in Matlab is useful for feature extraction and I wrote a code on our logo it works well too. Lastly, I found another resource file of recognizing object in photo which uses Cascade Object Detection with Deformable Part Models. This is useful when we have more than one Coca Cola bottles in a pictures. We may want to use it in our later research.
+
+\section{Results}
+Running SIFT Matlab program on present day Coco Cola logo, I got the features for this logo.
+
+\section{Issues Encountered}
+I am trying to maximize the function of SIFT code. Currently, it extracts features from Coca Cola logo, however, I do not know if the features it extracts are correct or not. Therefore, for the next step, we still need to work on training SIFT program to have higher correctness. I also realized that some logos of Coca Cola have not changed much, but shadows are added to them. This small change may results ineffectiveness of recognizing different logos. This is an important issue we need to consider as the project goes on.
+
+\section{Tasks For Next Week}
+Task for next week is to try a test photo on SIFT algorithm and try to improve the correctness of this extracted features. Also search for other possible algorithms for comparison use. 
+
+
+ \end{document}
+   
